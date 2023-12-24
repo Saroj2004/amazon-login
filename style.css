@@ -110,12 +110,13 @@ body{
     background:#F2CC6E;
     border-radius: 3px;
     border-width: 1.2px ;
+    background:orange;
     font-family: "poppins",sans-serif;
 
 }
-.sigin_btn:hover{
+/* .sigin_btn:hover{
     background:orange;
-}
+} */
 .new{
     color:silver;
     font-size:medium;
