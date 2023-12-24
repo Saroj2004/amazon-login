@@ -167,7 +167,7 @@ span{
             background:#fff;
             margin-top: 50px;
             margin-left:50px;
-            width: 340px;
+            width: 380px;
         }
         .emailbox{
             width: 260px;
@@ -183,7 +183,11 @@ span{
         }
         .sigin_btn{
             width: 260px;
+            background:orange;
+            color:white;
+            font-family:"poppins",san-serif;
         }
+      
 
         .left_line{
             margin-right:10px;
