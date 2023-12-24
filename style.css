@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#fff;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.containerbox{
+    background:#fff;
+    height: 480px;
+    width: 420px;
+    position: absolute;
+    top:10%;
+    border-radius: 5px;
+
+    
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.5); 
+
+}
+.signu_up{
+    color: black;
+    font-size: xx-large;
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    font: 400;
+    letter-spacing: 0.2px;
+    padding: 30px;
+    margin-top:40px;margin-left: 20px;
+
+}
+.email_p{
+    font-size:medium;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#595959;
+    margin-left: 50px;
+    margin-top:-10px;
+
+}
+.emailbox{
+    color: black;
+    width: 300px;
+    margin-left: 50px;
+    margin-top:8px;
+    height: 25px;
+    background:#fff;
+    text-align: center;
+    border: solid silver;
+    border-radius: 2px;;
+    outline: none;
+    cursor: text;
+}
+.emailbox:hover{
+    border-color:orange;
+    border-width:0.2px;
+    box-shadow :0px 0px 3px 0px orange
+
+}
+.pass_p{
+    color: black;
+    font-size:medium;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#595959;
+    margin-top:13px;
+    margin-left:50px;
+
+
+}
+.forgot{
+    
+    font-size:x-small;
+    font-weight:500px;
+    font-family: 'poppins',sans-serif;
+    color:#839AC9;
+    margin-left:255px;
+    margin-top:-16px
+    
+}
+.pass_box{
+    
+    color: black;
+    width: 300px;
+    margin-left: 50px;
+    margin-top:8px;
+    height: 25px;
+    background:#fff;
+    text-align: center;
+    border: solid silver;
+    border-radius: 2px;;
+    outline: none;
+    cursor: text;
+}
+.pass_box:hover{
+    border-color:orange;
+    border-width:0.2px;
+    box-shadow :0px 0px 3px 0px orange
+
+}
+.sigin_btn{
+    margin-top:18px;
+    width: 305px;
+    margin-left:50px;
+    height: 33px;
+    cursor: pointer;
+    background:#F2CC6E;
+    border-radius: 3px;
+    border-width: 1.2px ;
+    font-family: "poppins",sans-serif;
+
+}
+.sigin_btn:hover{
+    background:orange;
+}
+.new{
+    color:silver;
+    font-size:medium;
+    font-family: "poppins",sans-serif;
+    font-weight: 400;
+    letter-spacing:0.1;
+    margin-top:20px;
+    margin-left:142px
+}
+.right_line{
+    background: #595959;
+    width: 80px;
+    height:1.4px;
+    margin-top:-7px;
+    margin-left:50px
+}
+.create{
+    margin-top:30px
+}
+.left_line{
+    background: #595959;
+    width: 80px;
+    height:1.4px;
+    margin-top:-1px;
+    margin-right:67px;
+    float: right;
+}
+.create{
+    width: 300px;
+    margin-left: 53px;
+    height: 33px;
+    cursor: pointer;
+}
+.footer_text{
+    font-family: "poppins",sans-serif;
+    margin-left: 30px;
+    margin-top:13px;
+    line-height: 22px;
+    font-size: small;
+    text-indent: 10px;
+}
+span{
+    color:#68BDE6;
+
+}
+@media screen and (max-width:500px)
+    {
+        .containerbox{
+            background:#fff;
+            margin-top: 50px;
+            width: 340px;
+        }
+        .emailbox{
+            width: 260px;
+        }
+        .pass_box{
+            width: 260px;
+
+
+        }
+        .forgot{
+            font-size:x-small;
+            margin-left:210px
+        }
+        .sigin_btn{
+            width: 260px;
+        }
+
+        .left_line{
+            margin-right:10px;
+            width: 60px;
+        }
+        .create{
+            width: 260px;
+        }
+        .footer_text{
+            text-indent:13px;
+            width:420px;
+            margin-left:-2px
+
+        }
+        .span{
+            text-indent: 100px;
+        }
+
+    
+
+
+
+    }
